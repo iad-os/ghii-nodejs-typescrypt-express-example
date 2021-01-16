@@ -1,0 +1,14 @@
+version: '3.6'
+
+services:
+  keycloak:
+    image: io.iad2.cloud/ecobonus/eco-keycloak-11.0.2
+    environment:
+      KEYCLOAK_USER: ghii-ts-express-example-dev
+      KEYCLOAK_PASSWORD: s3cret
+    volumes:
+      - ./keycloak-test-data:/tmp
+    ports:
+      - 8080:8080
+volumes:
+  mongo:

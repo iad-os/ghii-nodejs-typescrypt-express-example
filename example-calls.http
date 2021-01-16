@@ -1,0 +1,7 @@
+@apiEndpoint=http://localhost:3000
+
+### Get Value v1
+GET {{apiEndpoint}}/v1/seq HTTP/1.1
+
+### Next Value v1
+POST {{apiEndpoint}}/v1/seq HTTP/1.1

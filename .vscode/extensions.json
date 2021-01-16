@@ -1,0 +1,13 @@
+{
+  "recommendations": [
+    "dbaeumer.vscode-eslint",
+    "humao.rest-client",
+    "ms-azuretools.vscode-docker",
+    "esbenp.prettier-vscode",
+    "eamodio.gitlens",
+    "redhat.vscode-yaml",
+    "VisualStudioExptTeam.vscodeintellicode",
+    "christian-kohler.path-intellisense",
+    "ms-vscode-remote.vscode-remote-extensionpack"
+  ]
+}

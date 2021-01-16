@@ -1,0 +1,15 @@
+nats:
+  servers:
+    - 'nats://nats:4222'
+  timeout: 10000
+  pingInterval: 20000
+  maxPingOut: 5
+  noEcho: false
+  verbose: true
+  reconnect: true
+  maxReconnectAttempts: 10
+mongo:
+  connectionUrl: 'mongodb://root:example@mongo:27017?authSource=admin'
+  options:
+    useNewUrlParser: true
+    useUnifiedTopology: true
