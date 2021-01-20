@@ -1,4 +1,5 @@
-let count = 0;
+import opts from '../config/options';
+let count = opts.snapshot().seq.start;
 export async function next(): Promise<number> {
   return (count += 1);
 }

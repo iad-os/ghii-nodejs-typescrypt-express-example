@@ -1,7 +1,9 @@
 import './util/configs';
 import options from './config/options';
 import logger from './util/logger';
+import dotEnv from 'dotenv';
 
+dotEnv.config();
 (async () => {
   try {
     await options.waitForFirstSnapshot({ timeout: 10000 }, __dirname, './main');

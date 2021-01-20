@@ -5,7 +5,6 @@ import helmet from 'helmet';
 import cors from 'cors';
 import bodyParser from 'body-parser';
 import compression from 'compression';
-import opts from './options';
 import logger from '../util/logger';
 
 //import baseRouter from '../routes';
